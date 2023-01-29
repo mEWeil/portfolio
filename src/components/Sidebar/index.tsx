@@ -4,6 +4,7 @@ import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './index.scss'
 import LogoM from '../../assets/images/logo-m.png'
 import LogoSub from '../../assets/images/logo_sub.png'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function index() {
 
@@ -26,6 +27,26 @@ export default function index() {
           <FontAwesomeIcon icon={ faEnvelope } color='#4d4d4e' />
         </NavLink>
       </nav>
+      <ul>
+        <li>
+          <a 
+            target='_blank' 
+            rel='noreferrer' 
+            href='https://www.linkedin.com/in/matthew-weil-029657254/'
+          >
+            <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
+          </a>
+        </li>
+        <li>
+          <a 
+            target='_blank' 
+            rel='noreferrer' 
+            href='https://github.com/mEWeil'
+          >
+            <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
+          </a>
+        </li>
+      </ul>
     </div>
   )
 }
