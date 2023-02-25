@@ -1,6 +1,11 @@
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faBookOpen,
+} from '@fortawesome/free-solid-svg-icons';
 import './index.scss';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import LogoM from '../../assets/images/logo-m.png';
@@ -21,6 +26,9 @@ export default function index() {
         </NavLink>
         <NavLink className="about-link" to="/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </NavLink>
+        <NavLink className="portfolio-link" to="/portfolio">
+          <FontAwesomeIcon icon={faBookOpen} color="#4d4d4e" />
         </NavLink>
         <NavLink className="contact-link" to="/contact">
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />

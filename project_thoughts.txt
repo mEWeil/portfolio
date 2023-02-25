@@ -1,9 +1,0 @@
-* @emailjs/browser: allows sending emails from clientside
-* @fortawesome/free-brands-svg-icons, @fortawesome/free-solid-svg-icons, @fortawesome/react-fontawesome: icons
-* animate.css: animations
-* gsap-trial: animation library
-* loaders.css: animated loaders
-* react-loaders: allows react to render a loader while data is loading
-* react-leaflet: integration for leaflet (renders interactive maps)
-* react-router-dom: allows you to implement dynamic routing in an app
-* sass: adds additional features to css
