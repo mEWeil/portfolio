@@ -1,6 +1,6 @@
 .nav-bar{
   background: #181818;
-  width: 80px;
+  width: 8vw;
   height: 100%;
   position: absolute;
   top: 0;
@@ -14,11 +14,11 @@
     img{
       display: block;
       margin: 8px auto;
-      width: 70px;
+      width: 7vw;
       height: auto;
 
       &.sub-logo{
-        width: 70px;
+        width: 7vw;
       }
     }
   }
@@ -121,6 +121,34 @@
 
         &:hover svg{
           color: #ffd700
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 800px){
+  .nav-bar{
+    background: #181818;
+    width: 75px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+  
+    .logo{
+      display: block;
+      padding: 8px 0;
+  
+      img{
+        display: block;
+        margin: 8px auto;
+        width: 60px;
+        height: auto;
+  
+        &.sub-logo{
+          width: 60px;
         }
       }
     }

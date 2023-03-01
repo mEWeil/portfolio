@@ -1,16 +1,17 @@
-import {
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faPython,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {
+//   faCss3,
+//   faGitAlt,
+//   faHtml5,
+//   faJsSquare,
+//   faPython,
+//   faReact,
+// } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
+import MattPic from '../../assets/images/matt_weil.jpg';
 
 export default function About() {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -52,7 +53,7 @@ export default function About() {
           </h1>
         </div>
 
-        <div className="stage-cube-cont">
+        {/* <div className="stage-cube-cont">
           <div className="cube-spinner">
             <div className="face1">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
@@ -73,9 +74,10 @@ export default function About() {
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
             </div>
           </div>
-        </div>
+        </div> */}
+        <img className="MattPic" src={MattPic} alt="Its me!" />
       </div>
-      <Loader type="pacman" active />
+      <Loader type="line-scale" active />
     </>
   );
 }

@@ -62,7 +62,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <Loader type="pacman" active />
+      <Loader type="line-scale" active />
     </>
   );
 }

@@ -12,8 +12,6 @@ import LogoM from '../../assets/images/logo-m.png';
 import LogoSub from '../../assets/images/logo_sub.png';
 
 export default function index() {
-  // const classNameFunc = ({ isActive } : {isActive: any}) => ( isActive ? 'active' : '')
-
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">

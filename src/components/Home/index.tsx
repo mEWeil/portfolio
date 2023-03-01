@@ -67,13 +67,13 @@ export default function Home() {
               idx={27}
             />
           </h1>
-          <h2>Frontend Developer</h2>
+          <h2>Frontend Developer / Backend Developer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
       </div>
-      <Loader type="pacman" active />
+      <Loader type="line-scale" active />
     </>
   );
 }
