@@ -8,33 +8,52 @@ export default function Portfolio() {
         <div className="text-zone">
           <ul>
             <li className="">
-              <h1>Sample Project 1</h1>
+              <h1>Software Dev Blog</h1>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
                 labore? Aliquid distinctio nemo deserunt ipsa minus tempore
                 iusto, voluptates quibusdam, error quisquam eveniet rem
                 accusantium tempora facere consequuntur deleniti eligendi?
               </p>
-              <a href="null">github</a>
-              <a href="null">website</a>
+              <a
+                target="_blank"
+                href="https://github.com/mEWeil/Software-Dev-Blog"
+                rel="noreferrer"
+              >
+                Github Repo
+              </a>
+              <br />
+              <a href="null">Live Project</a>
             </li>
             <li className="">
-              <h1>Sample Project 2</h1>
+              <h1>To-Do Application</h1>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
                 labore? Aliquid distinctio nemo deserunt ipsa minus tempore
                 iusto, voluptates quibusdam, error quisquam eveniet rem
                 accusantium tempora facere consequuntur deleniti eligendi?
               </p>
+              <a
+                target="_blank"
+                href="https://github.com/mEWeil/To-Do-Application"
+                rel="noreferrer"
+              >
+                Github Repo
+              </a>
+              <br />
+              <a href="null">Live Project</a>
             </li>
             <li className="">
-              <h1>Sample Project 3</h1>
+              <h1>E-Commerce Website</h1>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
                 labore? Aliquid distinctio nemo deserunt ipsa minus tempore
                 iusto, voluptates quibusdam, error quisquam eveniet rem
                 accusantium tempora facere consequuntur deleniti eligendi?
               </p>
+              <a href="null">Github Repo</a>
+              <br />
+              <a href="null">Live Project</a>
             </li>
           </ul>
         </div>
