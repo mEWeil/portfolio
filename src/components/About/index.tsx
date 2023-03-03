@@ -32,25 +32,28 @@ export default function About() {
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
               idx={15}
             />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              repellendus accusantium eum ullam fugiat alias culpa, voluptate
-              quaerat impedit possimus, dolorem ex aspernatur asperiores. Ipsa
-              deleniti magni voluptates consequuntur neque!
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-              debitis quos sapiente libero nisi, officia quas dolores soluta
-              mollitia hic sequi voluptates error animi vero architecto
-              molestias eveniet ex optio?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus consequuntur libero soluta error amet eos culpa
-              excepturi impedit fugit ipsam tempore odio mollitia, autem nulla
-              reiciendis inventore harum et vitae?
-            </p>
           </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+            repellendus accusantium eum ullam fugiat alias culpa, voluptate
+            quaerat impedit possimus, dolorem ex aspernatur asperiores. Ipsa
+            deleniti magni voluptates consequuntur neque!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+            debitis quos sapiente libero nisi, officia quas dolores soluta
+            mollitia hic sequi voluptates error animi vero architecto molestias
+            eveniet ex optio?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            consequuntur libero soluta error amet eos culpa excepturi impedit
+            fugit ipsam tempore odio mollitia, autem nulla reiciendis inventore
+            harum et vitae?
+          </p>
+          <a href="https://drive.google.com/file/d/1ecq5yTVNMJhXPbS2CZ8zdsHQYvRQtHp8/view?usp=share_link">
+            <button type="button">View Resume</button>
+          </a>
         </div>
 
         {/* <div className="stage-cube-cont">
