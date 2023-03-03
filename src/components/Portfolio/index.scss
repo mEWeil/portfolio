@@ -1,0 +1,14 @@
+.portfolio-li{
+  border: #4FBDBA 2px solid;
+  width: 75%;
+  padding: 15px;
+  margin: 15px;
+}
+
+a{
+  color: #4FBDBA;
+
+  &:hover{
+    color: #AEFEFF;
+  }
+}
